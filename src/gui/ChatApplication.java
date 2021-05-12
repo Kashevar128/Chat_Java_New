@@ -9,9 +9,10 @@ import javafx.stage.Stage;
 public class ChatApplication extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent chat = FXMLLoader.load(getClass().getResource("/chat.fxml"));
-        primaryStage.setTitle("Сетевой чат");
-        primaryStage.setScene(new Scene(chat));
+        Parent auth = FXMLLoader.load(getClass().getResource("/auth.fxml"));
+        primaryStage.setTitle("Авторизация");
+        primaryStage.setScene(new Scene(auth));
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 }
