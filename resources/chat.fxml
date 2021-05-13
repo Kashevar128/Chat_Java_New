@@ -3,12 +3,21 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ChatController">
-      <VBox prefHeight="618.0" prefWidth="400.0">
-         <TextArea fx:id="output" editable="false" prefHeight="600.0" prefWidth="400.0" />
-         <HBox prefHeight="100.0" prefWidth="200.0">
-               <TextField fx:id="input" onAction="#send" prefHeight="61.0" prefWidth="343.0" />
-               <Button mnemonicParsing="false" onAction="s" prefHeight="72.0" prefWidth="58.0" text="SEND" />
-         </HBox>
-      </VBox>
-</AnchorPane>
+<VBox fx:controller="gui.ChatController"
+        maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0"
+      prefWidth="340.0" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1">
+    <MenuBar>
+        <Menu mnemonicParsing="false" text="File">
+            <MenuItem mnemonicParsing="false" text="Quit" onAction="#quit"/>
+        </Menu>
+    </MenuBar>
+    <AnchorPane prefHeight="480.0" prefWidth="340.0">
+        <VBox prefHeight="439.0" prefWidth="340.0">
+            <TextArea editable="false" fx:id="output" prefHeight="377.0" prefWidth="340.0"/>
+            <HBox prefHeight="65.0" prefWidth="340.0">
+                <TextField onAction="#send" fx:id="input" prefHeight="70.0" prefWidth="278.0"/>
+                <Button onAction="#send" mnemonicParsing="false" prefHeight="71.0" prefWidth="64.0" text="SEND"/>
+            </HBox>
+        </VBox>
+    </AnchorPane>
+</VBox>
