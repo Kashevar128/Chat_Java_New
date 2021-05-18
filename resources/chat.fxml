@@ -3,6 +3,7 @@
 <?import java.lang.String?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -179,7 +180,7 @@
                      <children>
                         <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
+                              <Image url="@img/1223_oooo.plus.png" />
                            </image>
                            <HBox.margin>
                               <Insets left="20.0" />
@@ -221,7 +222,7 @@
                      <children>
                         <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
+                              <Image url="@img/544_oooo.plus.png" />
                            </image>
                            <HBox.margin>
                               <Insets left="20.0" />
@@ -263,7 +264,7 @@
                      <children>
                         <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
+                              <Image url="@img/1010_oooo.plus.png" />
                            </image>
                            <HBox.margin>
                               <Insets left="20.0" />
@@ -315,11 +316,6 @@
                            <children>
                               <VBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="176.0">
                                  <children>
-                                    <Label prefHeight="19.0" prefWidth="143.0" text="Mark" textFill="WHITE">
-                                       <font>
-                                          <Font name="Lucida Sans Demibold Italic" size="15.0" />
-                                       </font>
-                                    </Label>
                                     <Label prefHeight="17.0" prefWidth="142.0" text="Wow, Great!" textFill="#9da7a7">
                                        <font>
                                           <Font name="Ebrima" size="12.0" />
@@ -348,4 +344,40 @@
          </children>
       </HBox>
    </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="80.0" prefWidth="200.0">
+               <children>
+                  <Label prefHeight="28.0" prefWidth="70.0" text="Mark" textFill="#000000b2">
+                     <font>
+                        <Font name="Lucida Sans Demibold Italic" size="24.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Circle fill="#3ba58b" radius="4.0" stroke="BLACK" strokeType="INSIDE">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Circle>
+                  <Label prefHeight="28.0" prefWidth="70.0" text="Online" textFill="#00000087">
+                     <font>
+                        <Font name="Ebrima Bold" size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <ScrollPane prefHeight="556.0" prefWidth="653.0" styleClass="transparent-background" stylesheets="@values/style.css">
+               <content>
+                  <Pane prefHeight="553.0" prefWidth="650.0" styleClass="light-gray-background" stylesheets="@values/style.css" />
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </center>
 </BorderPane>
