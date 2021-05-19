@@ -21,26 +21,26 @@
             <VBox alignment="CENTER" prefHeight="702.0" prefWidth="81.0" styleClass="dark-gray-background" stylesheets="@values/style.css">
                <children>
                   <Pane prefHeight="308.0" prefWidth="91.0" />
-                  <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="55.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@img/chat.png" />
+                        <Image url="@img/chat_bubble_48px.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@img/settings-setup-set-gear-mechanic_108604.png" />
+                        <Image url="@img/settings_48px.png" />
                      </image>
                      <VBox.margin>
                         <Insets top="50.0" />
                      </VBox.margin>
                   </ImageView>
                   <Pane prefHeight="450.0" prefWidth="200.0" />
-                  <ImageView fitHeight="48.0" fitWidth="48.0" opacity="0.32" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="55.0" fitWidth="55.0" opacity="0.27" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@img/exit_icon_143020.png" />
                      </image>
                      <VBox.margin>
-                        <Insets />
+                        <Insets bottom="20.0" />
                      </VBox.margin>
                   </ImageView>
                </children>
@@ -62,7 +62,7 @@
                               <Insets left="10.0" right="20.0" />
                            </HBox.margin>
                            <font>
-                              <Font size="14.0" />
+                              <Font size="18.0" />
                            </font>
                         </TextField>
                      </children>
@@ -354,7 +354,7 @@
          <children>
             <HBox alignment="CENTER_LEFT" prefHeight="80.0" prefWidth="626.0">
                <children>
-                  <Label prefHeight="28.0" prefWidth="70.0" text="Mark" textFill="#000000b2">
+                  <Label prefHeight="28.0" prefWidth="96.0" text="Human" textFill="#000000b2">
                      <font>
                         <Font name="Lucida Sans Demibold Italic" size="24.0" />
                      </font>
@@ -377,36 +377,76 @@
                   </Label>
                </children>
             </HBox>
-            <ScrollPane prefHeight="554.0" prefWidth="629.0" styleClass="transparent-background" stylesheets="@values/style.css">
+            <ScrollPane prefHeight="539.0" prefWidth="612.0" styleClass="transparent-background" stylesheets="@values/style.css">
                <content>
-                  <Pane prefHeight="549.0" prefWidth="627.0" styleClass="light-gray-background" stylesheets="@values/style.css">
+                  <Pane prefHeight="531.0" prefWidth="627.0" styleClass="light-gray-background" stylesheets="@values/style.css">
                      <children>
-                        <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="26.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="34.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
                            </image>
                         </ImageView>
-                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="81.0" layoutY="40.0" prefHeight="47.0" prefWidth="146.0" styleClass="incoming-bubble" stylesheets="@values/style.css" text="С днем победы!" textFill="#9da7a7">
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="18.0" prefHeight="47.0" prefWidth="146.0" styleClass="incoming-bubble" stylesheets="@values/style.css" text="С днем победы!" textFill="#9da7a7">
                            <font>
                               <Font name="Ebrima" size="16.0" />
                            </font>
                         </Label>
-                        <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="530.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="538.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
+                              <Image url="@img/1223_oooo.plus.png" />
                            </image>
                         </ImageView>
-                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="402.0" layoutY="95.0" prefHeight="47.0" prefWidth="128.0" styleClass="outgoing-bubble" stylesheets="@values/style.css" text="Здорово бро!))">
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="399.0" layoutY="69.0" prefHeight="47.0" prefWidth="128.0" styleClass="outgoing-bubble" stylesheets="@values/style.css" text="Здорово бро!))">
                            <font>
                               <Font name="Ebrima" size="16.0" />
                            </font>
                         </Label>
-                        <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="26.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="34.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
                            </image>
                         </ImageView>
-                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="81.0" layoutY="138.0" prefHeight="72.0" prefWidth="214.0" styleClass="incoming-bubble" stylesheets="@values/style.css" text="Давай встретися, надо поговорить. &#10;Очень давно не виделись!" textFill="#9da7a7">
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="120.0" prefHeight="72.0" prefWidth="279.0" styleClass="incoming-bubble" stylesheets="@values/style.css" text="Давай встретися, надо поговорить. &#10;Очень давно не виделись!" textFill="#9da7a7">
+                           <font>
+                              <Font name="Ebrima" size="16.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="538.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/1223_oooo.plus.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="257.0" layoutY="339.0" prefHeight="57.0" prefWidth="270.0" styleClass="outgoing-bubble" stylesheets="@values/style.css" text="Круто! Но я кот и я не ем сладкое&#10;и пиво не пью!">
+                           <font>
+                              <Font name="Ebrima" size="16.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="34.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="243.0" prefHeight="86.0" prefWidth="279.0" styleClass="incoming-bubble" stylesheets="@values/style.css" text="Возьму с собой пиво и кофеты.&#10;Будем пить пиво и зарабатывать&#10;диабет!" textFill="#9da7a7">
+                           <font>
+                              <Font name="Ebrima" size="16.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="538.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/1223_oooo.plus.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="399.0" layoutY="196.0" prefHeight="47.0" prefWidth="128.0" styleClass="outgoing-bubble" stylesheets="@values/style.css" text="Да, давай)">
+                           <font>
+                              <Font name="Ebrima" size="16.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="34.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="409.0" prefHeight="61.0" prefWidth="279.0" styleClass="incoming-bubble" stylesheets="@values/style.css" text="Тогда напьемся молока и заедим&#10;все вискасом))&#10;" textFill="#9da7a7">
                            <font>
                               <Font name="Ebrima" size="16.0" />
                            </font>
@@ -414,6 +454,39 @@
                      </children></Pane>
                </content>
             </ScrollPane>
+            <HBox alignment="CENTER_LEFT" prefHeight="94.0" prefWidth="629.0">
+               <children>
+                  <ImageView fitHeight="55.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/comedy_48px.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="10.0" right="30.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="55.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/attach_50px.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <TextField prefHeight="66.0" prefWidth="424.0" promptText="Enter to message...">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <ImageView fitHeight="55.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/paper_plane_48px.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
          </children>
       </VBox>
    </center>
