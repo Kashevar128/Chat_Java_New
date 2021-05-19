@@ -18,4 +18,17 @@
     -fx-background-color: #DADADA;
 }
 
+.incoming-bubble{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 20px;
+}
+
+.outgoing-bubble{
+    -fx-background-color: #50C984;
+    -fx-background-radius: 20px;
+}
+
+
+
+
 

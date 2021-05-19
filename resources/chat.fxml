@@ -16,7 +16,7 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="702.0" prefWidth="1002.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <left>
-      <HBox prefHeight="702.0" prefWidth="349.0" BorderPane.alignment="CENTER">
+      <HBox prefHeight="702.0" prefWidth="373.0" BorderPane.alignment="CENTER">
          <children>
             <VBox alignment="CENTER" prefHeight="702.0" prefWidth="81.0" styleClass="dark-gray-background" stylesheets="@values/style.css">
                <children>
@@ -45,7 +45,7 @@
                   </ImageView>
                </children>
             </VBox>
-            <VBox prefHeight="639.0" prefWidth="269.0" styleClass="gray-background-color" stylesheets="@values/style.css">
+            <VBox prefHeight="702.0" prefWidth="293.0" styleClass="gray-background-color" stylesheets="@values/style.css">
                <children>
                   <HBox alignment="CENTER" prefHeight="37.0" prefWidth="269.0">
                      <children>
@@ -103,7 +103,7 @@
                                     </Label>
                                     <Label prefHeight="17.0" prefWidth="142.0" text="С днем победы!" textFill="#9da7a7">
                                        <font>
-                                          <Font name="Ebrima" size="12.0" />
+                                          <Font name="Ebrima" size="14.0" />
                                        </font>
                                        <VBox.margin>
                                           <Insets top="5.0" />
@@ -145,7 +145,7 @@
                                     </Label>
                                     <Label prefHeight="17.0" prefWidth="142.0" text="Все круто!" textFill="#9da7a7">
                                        <font>
-                                          <Font name="Ebrima" size="12.0" />
+                                          <Font name="Ebrima" size="14.0" />
                                        </font>
                                        <VBox.margin>
                                           <Insets top="5.0" />
@@ -197,7 +197,7 @@
                                     </Label>
                                     <Label prefHeight="17.0" prefWidth="142.0" text="Мяу!" textFill="#9da7a7">
                                        <font>
-                                          <Font name="Ebrima" size="12.0" />
+                                          <Font name="Ebrima" size="14.0" />
                                        </font>
                                        <VBox.margin>
                                           <Insets top="5.0" />
@@ -239,7 +239,7 @@
                                     </Label>
                                     <Label prefHeight="17.0" prefWidth="142.0" text="Ok" textFill="#9da7a7">
                                        <font>
-                                          <Font name="Ebrima" size="12.0" />
+                                          <Font name="Ebrima" size="14.0" />
                                        </font>
                                        <VBox.margin>
                                           <Insets top="5.0" />
@@ -281,7 +281,7 @@
                                     </Label>
                                     <Label prefHeight="17.0" prefWidth="142.0" text="Ho-ho-ho!!!" textFill="#9da7a7">
                                        <font>
-                                          <Font name="Ebrima" size="12.0" />
+                                          <Font name="Ebrima" size="14.0" />
                                        </font>
                                        <VBox.margin>
                                           <Insets top="5.0" />
@@ -316,13 +316,18 @@
                            <children>
                               <VBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="176.0">
                                  <children>
-                                    <Label prefHeight="17.0" prefWidth="142.0" text="Wow, Great!" textFill="#9da7a7">
+                                    <Label prefHeight="17.0" prefWidth="79.0" text="Mark" textFill="WHITE">
                                        <font>
-                                          <Font name="Ebrima" size="12.0" />
+                                          <Font name="Lucida Sans Italic" size="15.0" />
                                        </font>
                                        <VBox.margin>
                                           <Insets top="5.0" />
                                        </VBox.margin>
+                                    </Label>
+                                    <Label prefHeight="17.0" prefWidth="79.0" text="Wow, Great!" textFill="#9da7a7">
+                                       <font>
+                                          <Font name="Ebrima" size="14.0" />
+                                       </font>
                                     </Label>
                                  </children>
                                  <padding>
@@ -347,7 +352,7 @@
    <center>
       <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
          <children>
-            <HBox alignment="CENTER_LEFT" prefHeight="80.0" prefWidth="200.0">
+            <HBox alignment="CENTER_LEFT" prefHeight="80.0" prefWidth="626.0">
                <children>
                   <Label prefHeight="28.0" prefWidth="70.0" text="Mark" textFill="#000000b2">
                      <font>
@@ -372,9 +377,41 @@
                   </Label>
                </children>
             </HBox>
-            <ScrollPane prefHeight="556.0" prefWidth="653.0" styleClass="transparent-background" stylesheets="@values/style.css">
+            <ScrollPane prefHeight="554.0" prefWidth="629.0" styleClass="transparent-background" stylesheets="@values/style.css">
                <content>
-                  <Pane prefHeight="553.0" prefWidth="650.0" styleClass="light-gray-background" stylesheets="@values/style.css" />
+                  <Pane prefHeight="549.0" prefWidth="627.0" styleClass="light-gray-background" stylesheets="@values/style.css">
+                     <children>
+                        <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="26.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="81.0" layoutY="40.0" prefHeight="47.0" prefWidth="146.0" styleClass="incoming-bubble" stylesheets="@values/style.css" text="С днем победы!" textFill="#9da7a7">
+                           <font>
+                              <Font name="Ebrima" size="16.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="530.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="402.0" layoutY="95.0" prefHeight="47.0" prefWidth="128.0" styleClass="outgoing-bubble" stylesheets="@values/style.css" text="Здорово бро!))">
+                           <font>
+                              <Font name="Ebrima" size="16.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="26.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="81.0" layoutY="138.0" prefHeight="72.0" prefWidth="214.0" styleClass="incoming-bubble" stylesheets="@values/style.css" text="Давай встретися, надо поговорить. &#10;Очень давно не виделись!" textFill="#9da7a7">
+                           <font>
+                              <Font name="Ebrima" size="16.0" />
+                           </font>
+                        </Label>
+                     </children></Pane>
                </content>
             </ScrollPane>
          </children>
