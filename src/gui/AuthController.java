@@ -13,13 +13,18 @@ public class AuthController {
 
     public TextField login;
     public TextField password;
+    public Stage stage;
+
+    public Stage getStage() {
+        return stage;
+    }
 
     public void enter() throws IOException {
         boolean auth = MockAuthServiceImpl.getInstance()
                 .auth(login.getText(), password.getText());
         if(auth) {
-            Parent chat = FXMLLoader.load(getClass().getResource("/chat.fxml"));
-            Stage stage = new Stage();
+            Parent chat = FXMLLoader.load(getClass().getResource("/chatWork.fxml"));
+            stage = new Stage();
             stage.setTitle("Сетевой чат");
             stage.setScene(new Scene(chat));
             stage.setResizable(false);

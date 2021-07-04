@@ -16,7 +16,7 @@ public class RegistrationController {
 
     public void enter() throws IOException {
         MockAuthServiceImpl.getInstance().addUser(login.getText(), password.getText());
-        Parent chat = FXMLLoader.load(getClass().getResource("/chat.fxml"));
+        Parent chat = FXMLLoader.load(getClass().getResource("/chatWork.fxml"));
         Stage stage = new Stage();
         stage.setTitle("Сетевой чат");
         stage.setScene(new Scene(chat));
