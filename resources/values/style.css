@@ -28,6 +28,10 @@
     -fx-background-radius: 20px;
 }
 
+.label{
+          -fx-background-color: #50C984;
+          -fx-background-radius: 20px;
+      }
 
 
 

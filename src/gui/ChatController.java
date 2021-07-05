@@ -2,14 +2,20 @@ package gui;
 
 
 import javafx.concurrent.Task;
+import javafx.css.Style;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.chart.BubbleChart;
+import javafx.scene.control.ContentDisplay;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
@@ -19,30 +25,19 @@ import java.io.IOException;
 
 public class ChatController {
     @FXML
-    public ListView output;
+    public ListView <HBox> output;
     @FXML
     public TextField input;
 
     public synchronized void send(ActionEvent actionEvent) throws IOException {
-        Task<HBox> yourMessages = new Task<HBox>() {
-            @Override
-            protected HBox call() throws Exception {
-                System.out.println(input.getText());
-                input.clear();
-                Label label = new Label();
-                label.setText(input.getText());
-                HBox x = new HBox();
-                x.getChildren().addAll(label);
-                return x;
-            }
-        };
-       yourMessages.setOnSucceeded(event ->
-               output.getItems().add(yourMessages.getValue())
-       );
-        Thread t  = new Thread(yourMessages);
-        t.setDaemon(true);
-        t.start();
-
-
+        LabelChat labelChat = new LabelChat(input.getText());
+            Image image = new Image(String.valueOf(getClass().getClassLoader().getResource("img/544_oooo.plus.png")));
+            ImageView profileImage = new ImageView(image);
+            profileImage.setFitHeight(32);
+            profileImage.setFitWidth(32);
+            HBox hBox = new HBox();
+            hBox.getChildren().addAll(profileImage, labelChat);
+            output.getItems().add(hBox);
+            input.clear();
     }
 }

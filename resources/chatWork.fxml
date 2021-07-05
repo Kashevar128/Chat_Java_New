@@ -311,7 +311,7 @@
            </HBox>
            <ScrollPane prefHeight="539.0" prefWidth="612.0" styleClass="transparent-background" stylesheets="@values/style.css">
             <content>
-               <ListView fx:id="output" prefHeight="534.0" prefWidth="626.0" />
+               <ListView fx:id="output" prefHeight="532.0" prefWidth="626.0" />
             </content>
            </ScrollPane>
            <HBox alignment="CENTER_LEFT" prefHeight="94.0" prefWidth="629.0">

@@ -10,6 +10,6 @@
     <TextField fx:id="input" layoutX="60.0" layoutY="292.0" prefHeight="36.0" prefWidth="426.0" />
     <Button layoutX="137.0" layoutY="350.0" mnemonicParsing="false" onAction="#send" prefHeight="36.0" prefWidth="99.0" text="Button" />
    <ListView fx:id="list" layoutX="40.0" layoutY="19.0" prefHeight="244.0" prefWidth="225.0" />
-   <WebView fx:id="web" layoutX="308.0" layoutY="23.0" prefHeight="244.0" prefWidth="225.0" />
-   <Button onAction="#send2" layoutX="320.0" layoutY="356.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="99.0" text="Button2" />
+   <WebView fx:id="input2" layoutX="308.0" layoutY="23.0" prefHeight="244.0" prefWidth="225.0" />
+   <Button layoutX="320.0" layoutY="356.0" mnemonicParsing="false" onAction="#send2" prefHeight="30.0" prefWidth="99.0" text="Button2" />
 </AnchorPane>
