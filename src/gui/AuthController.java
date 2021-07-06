@@ -27,7 +27,7 @@ public class AuthController {
             stage = new Stage();
             stage.setTitle("Сетевой чат");
             stage.setScene(new Scene(chat));
-            stage.setResizable(false);
+            stage.setResizable(true);
             stage.show();
             login.getScene().getWindow().hide();
         }else {

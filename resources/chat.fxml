@@ -17,91 +17,86 @@
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="702.0" prefWidth="1002.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <left>
        <HBox prefHeight="702.0" prefWidth="373.0" BorderPane.alignment="CENTER">
-           <VBox alignment="CENTER" prefHeight="702.0" prefWidth="81.0" styleClass="dark-gray-background"
-                 stylesheets="@values/style.css">
-               <Pane prefHeight="308.0" prefWidth="91.0"/>
+           <VBox alignment="CENTER" prefHeight="702.0" prefWidth="81.0" styleClass="dark-gray-background" stylesheets="@values/style.css">
+               <Pane prefHeight="308.0" prefWidth="91.0" />
                <ImageView fitHeight="55.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
-                   <Image url="@img/chat_bubble_48px.png"/>
+                   <Image url="@img/chat_bubble_48px.png" />
                </ImageView>
                <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
                    <VBox.margin>
-                       <Insets top="50.0"/>
+                       <Insets top="50.0" />
                    </VBox.margin>
-                   <Image url="@img/settings_48px.png"/>
+                   <Image url="@img/settings_48px.png" />
                </ImageView>
-               <Pane prefHeight="450.0" prefWidth="200.0"/>
+               <Pane prefHeight="450.0" prefWidth="200.0" />
                <ImageView fitHeight="55.0" fitWidth="55.0" opacity="0.27" pickOnBounds="true" preserveRatio="true">
                    <VBox.margin>
-                       <Insets bottom="20.0"/>
+                       <Insets bottom="20.0" />
                    </VBox.margin>
-                   <Image url="@img/exit_icon_143020.png"/>
+                   <Image url="@img/exit_icon_143020.png" />
                </ImageView>
            </VBox>
-           <VBox prefHeight="702.0" prefWidth="293.0" styleClass="gray-background-color"
-                 stylesheets="@values/style.css">
+           <VBox prefHeight="702.0" prefWidth="293.0" styleClass="gray-background-color" stylesheets="@values/style.css">
                <HBox alignment="CENTER" prefHeight="37.0" prefWidth="269.0">
                    <opaqueInsets>
-                       <Insets/>
+                       <Insets />
                    </opaqueInsets>
                    <VBox.margin>
-                       <Insets left="20.0" right="20.0" top="20.0"/>
+                       <Insets left="20.0" right="20.0" top="20.0" />
                    </VBox.margin>
                    <styleClass>
-                       <String fx:value="dark-gray-background"/>
-                       <String fx:value="radius"/>
+                       <String fx:value="dark-gray-background" />
+                       <String fx:value="radius" />
                    </styleClass>
-                   <ImageView fitHeight="20.0" fitWidth="20.0" opacity="0.64" pickOnBounds="true"
-                              preserveRatio="true">
+                   <ImageView fitHeight="20.0" fitWidth="20.0" opacity="0.64" pickOnBounds="true" preserveRatio="true">
                        <HBox.margin>
-                           <Insets left="15.0"/>
+                           <Insets left="15.0" />
                        </HBox.margin>
-                       <Image url="@img/search_104498.png"/>
+                       <Image url="@img/search_104498.png" />
                    </ImageView>
                    <TextField prefHeight="25.0" prefWidth="174.0" styleClass="transparent-background">
                        <HBox.margin>
-                           <Insets left="10.0" right="20.0"/>
+                           <Insets left="10.0" right="20.0" />
                        </HBox.margin>
                        <font>
-                           <Font size="18.0"/>
+                           <Font size="18.0" />
                        </font>
                    </TextField>
                </HBox>
-               <Pane prefHeight="3.0" prefWidth="15.0" styleClass="dark-gray-background"
-                     stylesheets="@values/style.css">
+               <Pane prefHeight="3.0" prefWidth="15.0" styleClass="dark-gray-background" stylesheets="@values/style.css">
                    <VBox.margin>
-                       <Insets top="20.0"/>
+                       <Insets top="20.0" />
                    </VBox.margin>
                </Pane>
                <HBox prefHeight="66.0" prefWidth="269.0">
                    <opaqueInsets>
-                       <Insets/>
+                       <Insets />
                    </opaqueInsets>
                    <VBox.margin>
-                       <Insets top="20.0"/>
+                       <Insets top="20.0" />
                    </VBox.margin>
                    <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                        <HBox.margin>
-                           <Insets left="20.0"/>
+                           <Insets left="20.0" />
                        </HBox.margin>
-                       <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png"/>
+                       <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
                    </ImageView>
                    <HBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="184.0">
                        <VBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="172.0">
                            <padding>
-                               <Insets left="10.0"/>
+                               <Insets left="10.0" />
                            </padding>
                            <Label prefHeight="19.0" prefWidth="143.0" text="Human" textFill="WHITE">
                                <font>
-                                   <Font name="Lucida Sans Demibold Italic" size="15.0"/>
+                                   <Font name="Lucida Sans Demibold Italic" size="15.0" />
                                </font>
                            </Label>
-                           <Label prefHeight="17.0" prefWidth="142.0" text="С днем победы!"
-                                  textFill="#9da7a7">
+                           <Label prefHeight="17.0" prefWidth="142.0" text="С днем победы!" textFill="#9da7a7">
                                <font>
-                                   <Font name="Ebrima" size="14.0"/>
+                                   <Font name="Ebrima" size="14.0" />
                                </font>
                                <VBox.margin>
-                                   <Insets top="5.0"/>
+                                   <Insets top="5.0" />
                                </VBox.margin>
                            </Label>
                        </VBox>
@@ -109,77 +104,75 @@
                </HBox>
                <HBox prefHeight="66.0" prefWidth="269.0">
                    <opaqueInsets>
-                       <Insets/>
+                       <Insets />
                    </opaqueInsets>
                    <VBox.margin>
-                       <Insets top="30.0"/>
+                       <Insets top="30.0" />
                    </VBox.margin>
                    <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                        <HBox.margin>
-                           <Insets left="20.0"/>
+                           <Insets left="20.0" />
                        </HBox.margin>
-                       <Image url="@img/1206_oooo.plus.png"/>
+                       <Image url="@img/1206_oooo.plus.png" />
                    </ImageView>
                    <HBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="184.0">
                        <VBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="176.0">
                            <padding>
-                               <Insets left="10.0"/>
+                               <Insets left="10.0" />
                            </padding>
                            <Label prefHeight="19.0" prefWidth="143.0" text="Dog" textFill="WHITE">
                                <font>
-                                   <Font name="Lucida Sans Demibold Italic" size="15.0"/>
+                                   <Font name="Lucida Sans Demibold Italic" size="15.0" />
                                </font>
                            </Label>
-                           <Label prefHeight="17.0" prefWidth="142.0" text="Все круто!"
-                                  textFill="#9da7a7">
+                           <Label prefHeight="17.0" prefWidth="142.0" text="Все круто!" textFill="#9da7a7">
                                <font>
-                                   <Font name="Ebrima" size="14.0"/>
+                                   <Font name="Ebrima" size="14.0" />
                                </font>
                                <VBox.margin>
-                                   <Insets top="5.0"/>
+                                   <Insets top="5.0" />
                                </VBox.margin>
                            </Label>
                        </VBox>
                    </HBox>
                    <Pane prefHeight="66.0" prefWidth="92.0">
-                       <Circle fill="#3ba58b" layoutX="24.0" layoutY="33.0" radius="12.0" stroke="BLACK"
-                               strokeType="INSIDE"/>
+                       <Circle fill="#3ba58b" layoutX="24.0" layoutY="33.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
                        <Label alignment="CENTER" layoutX="21.0" layoutY="25.0" text="1" textFill="WHITE">
                            <font>
-                               <Font name="System Bold" size="12.0"/>
+                               <Font name="System Bold" size="12.0" />
                            </font>
                        </Label>
                    </Pane>
                </HBox>
                <HBox prefHeight="66.0" prefWidth="269.0">
                    <opaqueInsets>
-                       <Insets/>
+                       <Insets />
                    </opaqueInsets>
                    <VBox.margin>
-                       <Insets top="30.0"/>
+                       <Insets top="30.0" />
                    </VBox.margin>
                    <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                        <HBox.margin>
-                           <Insets left="20.0"/>
+                           <Insets left="20.0" />
                        </HBox.margin>
-                       <Image url="@img/1223_oooo.plus.png"/>
+                       <Image url="@img/1223_oooo.plus.png" />
                    </ImageView>
                    <HBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="184.0">
                        <VBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="176.0">
                            <padding>
-                               <Insets left="10.0"/>
+                               <Insets left="10.0" />
                            </padding>
                            <Label prefHeight="19.0" prefWidth="143.0" text="Cat" textFill="WHITE">
                                <font>
-                                   <Font name="Lucida Sans Demibold Italic" size="15.0"/>
+                                   <Font name="Lucida Sans Demibold Italic" size="15.0" />
                                </font>
                            </Label>
                            <Label prefHeight="17.0" prefWidth="142.0" text="Мяу!" textFill="#9da7a7">
                                <font>
-                                   <Font name="Ebrima" size="14.0"/>
+                                   <Font name="Ebrima" size="14.0" />
                                </font>
                                <VBox.margin>
-                                   <Insets top="5.0"/>
+                                   <Insets top="5.0" />
                                </VBox.margin>
                            </Label>
                        </VBox>
@@ -187,33 +180,33 @@
                </HBox>
                <HBox prefHeight="66.0" prefWidth="269.0">
                    <opaqueInsets>
-                       <Insets/>
+                       <Insets />
                    </opaqueInsets>
                    <VBox.margin>
-                       <Insets top="30.0"/>
+                       <Insets top="30.0" />
                    </VBox.margin>
                    <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                        <HBox.margin>
-                           <Insets left="20.0"/>
+                           <Insets left="20.0" />
                        </HBox.margin>
-                       <Image url="@img/544_oooo.plus.png"/>
+                       <Image url="@img/544_oooo.plus.png" />
                    </ImageView>
                    <HBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="184.0">
                        <VBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="176.0">
                            <padding>
-                               <Insets left="10.0"/>
+                               <Insets left="10.0" />
                            </padding>
                            <Label prefHeight="19.0" prefWidth="143.0" text="Alice" textFill="WHITE">
                                <font>
-                                   <Font name="Lucida Sans Demibold Italic" size="15.0"/>
+                                   <Font name="Lucida Sans Demibold Italic" size="15.0" />
                                </font>
                            </Label>
                            <Label prefHeight="17.0" prefWidth="142.0" text="Ok" textFill="#9da7a7">
                                <font>
-                                   <Font name="Ebrima" size="14.0"/>
+                                   <Font name="Ebrima" size="14.0" />
                                </font>
                                <VBox.margin>
-                                   <Insets top="5.0"/>
+                                   <Insets top="5.0" />
                                </VBox.margin>
                            </Label>
                        </VBox>
@@ -221,34 +214,33 @@
                </HBox>
                <HBox prefHeight="66.0" prefWidth="269.0">
                    <opaqueInsets>
-                       <Insets/>
+                       <Insets />
                    </opaqueInsets>
                    <VBox.margin>
-                       <Insets top="30.0"/>
+                       <Insets top="30.0" />
                    </VBox.margin>
                    <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                        <HBox.margin>
-                           <Insets left="20.0"/>
+                           <Insets left="20.0" />
                        </HBox.margin>
-                       <Image url="@img/1010_oooo.plus.png"/>
+                       <Image url="@img/1010_oooo.plus.png" />
                    </ImageView>
                    <HBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="184.0">
                        <VBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="176.0">
                            <padding>
-                               <Insets left="10.0"/>
+                               <Insets left="10.0" />
                            </padding>
                            <Label prefHeight="19.0" prefWidth="143.0" text="Dark" textFill="WHITE">
                                <font>
-                                   <Font name="Lucida Sans Demibold Italic" size="15.0"/>
+                                   <Font name="Lucida Sans Demibold Italic" size="15.0" />
                                </font>
                            </Label>
-                           <Label prefHeight="17.0" prefWidth="142.0" text="Ho-ho-ho!!!"
-                                  textFill="#9da7a7">
+                           <Label prefHeight="17.0" prefWidth="142.0" text="Ho-ho-ho!!!" textFill="#9da7a7">
                                <font>
-                                   <Font name="Ebrima" size="14.0"/>
+                                   <Font name="Ebrima" size="14.0" />
                                </font>
                                <VBox.margin>
-                                   <Insets top="5.0"/>
+                                   <Insets top="5.0" />
                                </VBox.margin>
                            </Label>
                        </VBox>
@@ -256,34 +248,33 @@
                </HBox>
                <HBox prefHeight="66.0" prefWidth="269.0">
                    <opaqueInsets>
-                       <Insets/>
+                       <Insets />
                    </opaqueInsets>
                    <VBox.margin>
-                       <Insets top="30.0"/>
+                       <Insets top="30.0" />
                    </VBox.margin>
                    <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                        <HBox.margin>
-                           <Insets left="20.0"/>
+                           <Insets left="20.0" />
                        </HBox.margin>
-                       <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png"/>
+                       <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
                    </ImageView>
                    <HBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="184.0">
                        <VBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="176.0">
                            <padding>
-                               <Insets left="10.0"/>
+                               <Insets left="10.0" />
                            </padding>
                            <Label prefHeight="17.0" prefWidth="79.0" text="Mark" textFill="WHITE">
                                <font>
-                                   <Font name="Lucida Sans Italic" size="15.0"/>
+                                   <Font name="Lucida Sans Italic" size="15.0" />
                                </font>
                                <VBox.margin>
-                                   <Insets top="5.0"/>
+                                   <Insets top="5.0" />
                                </VBox.margin>
                            </Label>
-                           <Label prefHeight="17.0" prefWidth="79.0" text="Wow, Great!"
-                                  textFill="#9da7a7">
+                           <Label prefHeight="17.0" prefWidth="79.0" text="Wow, Great!" textFill="#9da7a7">
                                <font>
-                                   <Font name="Ebrima" size="14.0"/>
+                                   <Font name="Ebrima" size="14.0" />
                                </font>
                            </Label>
                        </VBox>
@@ -293,115 +284,86 @@
        </HBox>
    </left>
    <center>
-       <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+       <VBox prefHeight="644.0" prefWidth="664.0" BorderPane.alignment="CENTER">
            <HBox alignment="CENTER_LEFT" prefHeight="80.0" prefWidth="626.0">
                <Label prefHeight="28.0" prefWidth="96.0" text="Human" textFill="#000000b2">
                    <font>
-                       <Font name="Lucida Sans Demibold Italic" size="24.0"/>
+                       <Font name="Lucida Sans Demibold Italic" size="24.0" />
                    </font>
                    <HBox.margin>
-                       <Insets left="20.0"/>
+                       <Insets left="20.0" />
                    </HBox.margin>
                </Label>
                <Circle fill="#3ba58b" radius="4.0" stroke="BLACK" strokeType="INSIDE">
                    <HBox.margin>
-                       <Insets left="5.0"/>
+                       <Insets left="5.0" />
                    </HBox.margin>
                </Circle>
                <Label prefHeight="28.0" prefWidth="70.0" text="Online" textFill="#00000087">
                    <font>
-                       <Font name="Ebrima Bold" size="14.0"/>
+                       <Font name="Ebrima Bold" size="14.0" />
                    </font>
                    <HBox.margin>
-                       <Insets left="5.0"/>
+                       <Insets left="5.0" />
                    </HBox.margin>
                </Label>
            </HBox>
-           <ScrollPane prefHeight="539.0" prefWidth="612.0" styleClass="transparent-background"
-                       stylesheets="@values/style.css">
-               <Pane prefHeight="531.0" prefWidth="627.0" styleClass="light-gray-background"
-                     stylesheets="@values/style.css">
-                   <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="34.0" layoutY="14.0" pickOnBounds="true"
-                              preserveRatio="true">
-                       <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png"/>
+           <ScrollPane prefHeight="539.0" prefWidth="612.0" styleClass="transparent-background" stylesheets="@values/style.css">
+               <Pane prefHeight="531.0" prefWidth="627.0" styleClass="light-gray-background" stylesheets="@values/style.css">
+                   <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="34.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                       <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
                    </ImageView>
-                   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="18.0"
-                          prefHeight="47.0" prefWidth="146.0" styleClass="incoming-bubble"
-                          stylesheets="@values/style.css" text="С днем победы!" textFill="#9da7a7">
+                   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="18.0" prefHeight="47.0" prefWidth="146.0" styleClass="incoming-bubble" stylesheets="@values/style.css" text="С днем победы!" textFill="#9da7a7">
                        <font>
-                           <Font name="Ebrima" size="16.0"/>
+                           <Font name="Ebrima" size="16.0" />
                        </font>
                    </Label>
-                   <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="538.0" layoutY="65.0"
-                              pickOnBounds="true" preserveRatio="true">
-                       <Image url="@img/1223_oooo.plus.png"/>
+                   <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="538.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+                       <Image url="@img/1223_oooo.plus.png" />
                    </ImageView>
-                   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="399.0" layoutY="69.0"
-                          prefHeight="47.0" prefWidth="128.0" styleClass="outgoing-bubble"
-                          stylesheets="@values/style.css" text="Здорово бро!))">
+                   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="399.0" layoutY="69.0" prefHeight="47.0" prefWidth="128.0" styleClass="outgoing-bubble" stylesheets="@values/style.css" text="Здорово бро!))">
                        <font>
-                           <Font name="Ebrima" size="16.0"/>
+                           <Font name="Ebrima" size="16.0" />
                        </font>
                    </Label>
-                   <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="34.0" layoutY="128.0"
-                              pickOnBounds="true" preserveRatio="true">
-                       <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png"/>
+                   <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="34.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+                       <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
                    </ImageView>
-                   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="120.0"
-                          prefHeight="72.0" prefWidth="279.0" styleClass="incoming-bubble"
-                          stylesheets="@values/style.css"
-                          text="Давай встретися, надо поговорить. &#10;Очень давно не виделись!"
-                          textFill="#9da7a7">
+                   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="120.0" prefHeight="72.0" prefWidth="279.0" styleClass="incoming-bubble" stylesheets="@values/style.css" text="Давай встретися, надо поговорить. &#10;Очень давно не виделись!" textFill="#9da7a7">
                        <font>
-                           <Font name="Ebrima" size="16.0"/>
+                           <Font name="Ebrima" size="16.0" />
                        </font>
                    </Label>
-                   <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="538.0" layoutY="340.0"
-                              pickOnBounds="true" preserveRatio="true">
-                       <Image url="@img/1223_oooo.plus.png"/>
+                   <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="538.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true">
+                       <Image url="@img/1223_oooo.plus.png" />
                    </ImageView>
-                   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="257.0" layoutY="339.0"
-                          prefHeight="57.0" prefWidth="270.0" styleClass="outgoing-bubble"
-                          stylesheets="@values/style.css"
-                          text="Круто! Но я кот и я не ем сладкое&#10;и пиво не пью!">
+                   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="257.0" layoutY="339.0" prefHeight="57.0" prefWidth="270.0" styleClass="outgoing-bubble" stylesheets="@values/style.css" text="Круто! Но я кот и я не ем сладкое&#10;и пиво не пью!">
                        <font>
-                           <Font name="Ebrima" size="16.0"/>
+                           <Font name="Ebrima" size="16.0" />
                        </font>
                    </Label>
-                   <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="34.0" layoutY="258.0"
-                              pickOnBounds="true" preserveRatio="true">
-                       <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png"/>
+                   <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="34.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+                       <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
                    </ImageView>
-                   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="243.0"
-                          prefHeight="86.0" prefWidth="279.0" styleClass="incoming-bubble"
-                          stylesheets="@values/style.css"
-                          text="Возьму с собой пиво и кофеты.&#10;Будем пить пиво и зарабатывать&#10;диабет!"
-                          textFill="#9da7a7">
+                   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="243.0" prefHeight="86.0" prefWidth="279.0" styleClass="incoming-bubble" stylesheets="@values/style.css" text="Возьму с собой пиво и кофеты.&#10;Будем пить пиво и зарабатывать&#10;диабет!" textFill="#9da7a7">
                        <font>
-                           <Font name="Ebrima" size="16.0"/>
+                           <Font name="Ebrima" size="16.0" />
                        </font>
                    </Label>
-                   <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="538.0" layoutY="192.0"
-                              pickOnBounds="true" preserveRatio="true">
-                       <Image url="@img/1223_oooo.plus.png"/>
+                   <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="538.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+                       <Image url="@img/1223_oooo.plus.png" />
                    </ImageView>
-                   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="399.0" layoutY="196.0"
-                          prefHeight="47.0" prefWidth="128.0" styleClass="outgoing-bubble"
-                          stylesheets="@values/style.css" text="Да, давай)">
+                   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="399.0" layoutY="196.0" prefHeight="47.0" prefWidth="128.0" styleClass="outgoing-bubble" stylesheets="@values/style.css" text="Да, давай)">
                        <font>
-                           <Font name="Ebrima" size="16.0"/>
+                           <Font name="Ebrima" size="16.0" />
                        </font>
                    </Label>
-                   <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="34.0" layoutY="405.0"
-                              pickOnBounds="true" preserveRatio="true">
-                       <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png"/>
+                   <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="34.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true">
+                       <Image url="@img/face_human_blank_user_avatar_mannequin_dummy_icon-icons.com_55975.png" />
                    </ImageView>
-                   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="409.0"
-                          prefHeight="61.0" prefWidth="279.0" styleClass="incoming-bubble"
-                          stylesheets="@values/style.css"
-                          text="Тогда напьемся молока и заедим&#10;все вискасом))&#10;" textFill="#9da7a7">
+                   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="409.0" prefHeight="61.0" prefWidth="279.0" styleClass="incoming-bubble" stylesheets="@values/style.css" text="Тогда напьемся молока и заедим&#10;все вискасом))&#10;" textFill="#9da7a7">
                        <font>
-                           <Font name="Ebrima" size="16.0"/>
+                           <Font name="Ebrima" size="16.0" />
                        </font>
                    </Label>
                </Pane>
@@ -409,26 +371,26 @@
            <HBox alignment="CENTER_LEFT" prefHeight="94.0" prefWidth="629.0">
                <ImageView fitHeight="55.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                    <HBox.margin>
-                       <Insets left="10.0" right="30.0"/>
+                       <Insets left="10.0" right="30.0" />
                    </HBox.margin>
-                   <Image url="@img/comedy_48px.png"/>
+                   <Image url="@img/comedy_48px.png" />
                </ImageView>
                <ImageView fitHeight="55.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                    <HBox.margin>
-                       <Insets right="10.0"/>
+                       <Insets right="10.0" />
                    </HBox.margin>
-                   <Image url="@img/attach_50px.png"/>
+                   <Image url="@img/attach_50px.png" />
                </ImageView>
                <TextField prefHeight="66.0" prefWidth="424.0" promptText="Enter to message...">
                    <font>
-                       <Font size="15.0"/>
+                       <Font size="15.0" />
                    </font>
                </TextField>
                <ImageView fitHeight="55.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                    <HBox.margin>
-                       <Insets left="10.0"/>
+                       <Insets left="10.0" />
                    </HBox.margin>
-                   <Image url="@img/paper_plane_48px.png"/>
+                   <Image url="@img/paper_plane_48px.png" />
                </ImageView>
            </HBox>
        </VBox>
