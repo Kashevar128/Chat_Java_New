@@ -33,6 +33,10 @@ public class ChatController {
     public TextField input;
 
     public synchronized void send(ActionEvent actionEvent) throws IOException {
+        if (!filter(input.getText())) {
+            input.clear();
+            return;
+        }
         LabelChat labelChat = new LabelChat(input.getText());
         Image image = new Image(String.valueOf(getClass().getClassLoader().getResource("img/544_oooo.plus.png")));
         ImageView profileImage = new ImageView(image);
@@ -40,10 +44,20 @@ public class ChatController {
         profileImage.setFitWidth(60);
         HBox hBox = new HBox();
         hBox.getChildren().addAll(profileImage, labelChat);
-        hBox.setSpacing(20);
         HBox.setMargin(profileImage, new Insets(10, 10, 10,10));
         HBox.setMargin(labelChat, new Insets(20, 10, 20, 10));
         output.getItems().add(hBox);
+        int index = output.getSelectionModel().getSelectedIndex();
+        output.getSelectionModel().clearSelection(index);
         input.clear();
+    }
+
+    private static boolean filter (String msg) {
+        boolean flag = true;
+        if(msg.equals("")) flag = false;
+        for (int i = 0; i < msg.length(); i++) {
+            if(msg.charAt(i) == ' ') flag = false;
+        }
+        return flag;
     }
 }

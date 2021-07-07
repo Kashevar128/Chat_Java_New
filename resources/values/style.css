@@ -28,6 +28,23 @@
     -fx-background-radius: 20px;
 }
 
+.background{
+    -fx-background-color: transparent;
+}
+
+.ring-color{
+    -fx-focus-color: transparent;
+}
+
+.button{
+    -fx-focus-color: transparent;
+}user
+
+.text-field {
+    -fx-focus-color: transparent;
+}
+
+
 
 
 
