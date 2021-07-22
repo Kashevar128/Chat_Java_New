@@ -37,7 +37,7 @@
                    <Image url="@img/exit_icon_143020.png" />
                </ImageView>
            </VBox>
-           <VBox prefHeight="702.0" prefWidth="293.0" styleClass="gray-background-color" stylesheets="@values/style.css">
+           <VBox prefHeight="702.0" prefWidth="299.0" styleClass="gray-background-color" stylesheets="@values/style.css">
                <HBox alignment="CENTER" prefHeight="37.0" prefWidth="269.0">
                    <opaqueInsets>
                        <Insets />
@@ -308,8 +308,9 @@
                        <Insets left="5.0" />
                    </HBox.margin>
                </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
            </HBox>
-         <ListView fx:id="output" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="532.0" prefWidth="626.0" styleClass="ring-color" stylesheets="@values/style.css" />
+         <ListView fx:id="output" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="528.0" prefWidth="578.0" styleClass="ring-color" stylesheets="@values/style.css" />
            <HBox alignment="CENTER_LEFT" prefHeight="94.0" prefWidth="629.0">
                <ImageView fitHeight="55.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                    <HBox.margin>

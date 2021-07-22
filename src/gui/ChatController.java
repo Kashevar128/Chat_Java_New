@@ -32,12 +32,18 @@ public class ChatController {
     @FXML
     public TextField input;
 
-    public synchronized void send(ActionEvent actionEvent) throws IOException {
+
+    public void send() throws IOException {
         if (!filter(input.getText())) {
             input.clear();
             return;
         }
-        LabelChat labelChat = new LabelChat(input.getText());
+        addToChat(input.getText());
+        input.clear();
+    }
+
+    public void addToChat(String msg) {
+        LabelChat labelChat = new LabelChat(msg);
         Image image = new Image(String.valueOf(getClass().getClassLoader().getResource("img/544_oooo.plus.png")));
         ImageView profileImage = new ImageView(image);
         profileImage.setFitHeight(60);
@@ -49,7 +55,6 @@ public class ChatController {
         output.getItems().add(hBox);
         int index = output.getSelectionModel().getSelectedIndex();
         output.getSelectionModel().clearSelection(index);
-        input.clear();
     }
 
     private static boolean filter (String msg) {

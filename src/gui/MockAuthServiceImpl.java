@@ -9,6 +9,7 @@ public class MockAuthServiceImpl implements AuthService {
     private MockAuthServiceImpl() {
         userDao = new HashMap<>();
         userDao.put("user", "pass");
+        userDao.put("", "");
     }
 
     public static MockAuthServiceImpl getInstance() {
