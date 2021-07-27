@@ -1,8 +1,7 @@
-package Server;
+package serverChat;
 
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.nio.charset.StandardCharsets;
 
 public class EchoServer {
 

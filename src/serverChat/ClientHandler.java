@@ -1,4 +1,4 @@
-package Server;
+package serverChat;
 
 import java.io.Closeable;
 import java.io.DataInputStream;
@@ -8,6 +8,8 @@ import java.net.Socket;
 
 public class ClientHandler implements Runnable, Closeable {
 
+    private static int cnt = 0;
+    private int connectionId;
     private Socket socket;
     private DataInputStream is;
     private DataOutputStream os;
@@ -16,6 +18,8 @@ public class ClientHandler implements Runnable, Closeable {
         this.socket = socket;
         is = new DataInputStream(socket.getInputStream());
         os = new DataOutputStream(socket.getOutputStream());
+        cnt++;
+        connectionId = cnt;
     }
 
     @Override
@@ -23,7 +27,7 @@ public class ClientHandler implements Runnable, Closeable {
         while (true) {
             try {
                 String messageFromClient = is.readUTF();
-                System.out.println("Reseived: " + messageFromClient);
+                System.out.println("Received from " + connectionId + ": " + messageFromClient);
                 os.writeUTF("Message from server: " + messageFromClient);
                 os.flush();
             } catch (IOException e) {
