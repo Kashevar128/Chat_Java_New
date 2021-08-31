@@ -15,7 +15,7 @@ public class Client {
         while (in.hasNext()) {
             String message = in.next();
             os.writeUTF(message);
-            System.out.println(is.readUTF());
+            os.flush();
         }
     }
 }

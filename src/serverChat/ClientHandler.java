@@ -5,6 +5,7 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
+import java.util.Scanner;
 
 public class ClientHandler implements Runnable, Closeable {
 
@@ -28,8 +29,6 @@ public class ClientHandler implements Runnable, Closeable {
             try {
                 String messageFromClient = is.readUTF();
                 System.out.println("Received from " + connectionId + ": " + messageFromClient);
-                os.writeUTF("Message from server: " + messageFromClient);
-                os.flush();
             } catch (IOException e) {
                 e.printStackTrace();
             }
