@@ -12,6 +12,7 @@ public class Client {
         Socket socket = new Socket("localhost",8189);
         DataInputStream is = new DataInputStream(socket.getInputStream());
         DataOutputStream os = new DataOutputStream(socket.getOutputStream());
+        new Thread(new MessageListener(socket)).start();
         while (in.hasNext()) {
             String message = in.next();
             os.writeUTF(message);

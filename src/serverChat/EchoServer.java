@@ -13,6 +13,7 @@ public class EchoServer {
                 System.out.println("Server is waiting connection.");
                 Socket socket = server.accept();
                 new Thread(new ClientHandler(socket)).start();
+                new Thread(new SendMessage(socket)).start();
                 System.out.println("Client accepted!");
                 System.out.println("Client info: " + socket.getInetAddress());
             }
