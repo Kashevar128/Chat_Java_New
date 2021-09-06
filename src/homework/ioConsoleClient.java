@@ -37,7 +37,7 @@ public class ioConsoleClient {
                         }
                     }
                 } catch (Exception e) {
-                    e.printStackTrace();
+                    System.out.println("Server was broken");
                 }
             });
             writeThread.setDaemon(true);
